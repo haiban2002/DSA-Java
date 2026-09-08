@@ -55,7 +55,7 @@ class LinkedList{
     }
     void delteData(int data){
         Node temp=head;
-        if(temp.data==data){  //its checks that head data is data to delete
+        if(temp.data==data){  //its checks is first node is the data to be deleted
             head=temp.reference; // make this head
             return;
         }
